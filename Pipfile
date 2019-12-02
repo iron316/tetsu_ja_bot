@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+jedi = "==0.13.2"
+flake8 = "*"
+isort = "*"
+pynvim = "==0.3.2"
+python-language-server = "~=0.27.0"
+autopep8 = "*"
+jupyter = "*"
+
+[packages]
+gensim = "*"
+nltk = "*"
+pandas = "*"
+numpy = "*"
+googletrans = "*"
+spacy = "*"
+ipython = "*"
+jupyter = "*"
+ginza = {git = "https://github.com/megagonlabs/ginza.git",ref = "v2.2.1"}
+scikit-learn = "*"
+google-cloud-translate = "*"
