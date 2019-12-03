@@ -23,4 +23,3 @@ ipython = "*"
 jupyter = "*"
 ginza = {git = "https://github.com/megagonlabs/ginza.git",ref = "v2.2.1"}
 scikit-learn = "*"
-google-cloud-translate = "*"

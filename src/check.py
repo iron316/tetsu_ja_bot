@@ -1,9 +1,7 @@
-import argparse
-
 import spacy
 
-from scoring import bleu_scoring, cossim_scoring
-from translate import trans2trans
+from utils.scoring import bleu_scoring, cossim_scoring
+from utils.translate import trans2trans
 
 
 def check(origin_text):
