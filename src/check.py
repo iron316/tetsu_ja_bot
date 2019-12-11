@@ -2,6 +2,7 @@ import spacy
 
 from utils.scoring import bleu_scoring, cossim_scoring
 from utils.translate import trans2trans
+from utils.dependency import check_tree
 
 
 def check(origin_text):
@@ -17,6 +18,8 @@ def check(origin_text):
     bleu_score = bleu_scoring(origin_doc, trans_ja_doc)
     print(f"meaning score : {meaning_score:.3f}")
     print(f"BLEU score : {bleu_score:.3f}")
+
+    check_tree(origin_doc)
 
 
 if __name__ == "__main__":
